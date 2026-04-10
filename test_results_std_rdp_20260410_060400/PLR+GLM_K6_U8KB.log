@@ -1,0 +1,63 @@
+[INFO] Initializing io_uring with 4096 entries (for QD=64, IOs/stripe=28)
+[FD-CHECK] disk: checking fd=6
+[FD-CHECK] disk: fd 6 is safe (>= 3)
+[FD-CHECK] disk: checking fd=7
+[FD-CHECK] disk: fd 7 is safe (>= 3)
+[FD-CHECK] disk: checking fd=8
+[FD-CHECK] disk: fd 8 is safe (>= 3)
+[FD-CHECK] disk: checking fd=9
+[FD-CHECK] disk: fd 9 is safe (>= 3)
+[FD-CHECK] disk: checking fd=10
+[FD-CHECK] disk: fd 10 is safe (>= 3)
+[FD-CHECK] disk: checking fd=11
+[FD-CHECK] disk: fd 11 is safe (>= 3)
+[FD-CHECK] disk: checking fd=12
+[FD-CHECK] disk: fd 12 is safe (>= 3)
+[FD-CHECK] disk: checking fd=13
+[FD-CHECK] disk: fd 13 is safe (>= 3)
+[INFO] Starting async pipeline (queue_depth=64, ring_queue_depth=4096)
+[PROGRESS] 0/1000 (0.0%) | elapsed=0.0s | est_remaining=infs | inflight=64
+[PROGRESS] 0/1000 (0.0%) | elapsed=0.0s | est_remaining=infs | inflight=64
+[PROGRESS] 0/1000 (0.0%) | elapsed=0.0s | est_remaining=infs | inflight=64
+[PROGRESS] 0/1000 (0.0%) | elapsed=0.0s | est_remaining=infs | inflight=64
+[PROGRESS] 1000/1000 (100.0%) | elapsed=0.3s | est_remaining=0.0s | inflight=0
+RDP demo (k=6, p=7, w=6, packetsize=4096)
+Allocation strategy: hybrid
+PLR: enabled (dir=/mnt/rdp_logs/plr)
+
+Data block CRC32 digests:
+  D00 -> 865bf584
+  D01 -> 13b17502
+  D02 -> ffe06be0
+  D03 -> 80354ecd
+  D04 -> 1119f1ea
+  D05 -> faa9f8fb
+Parity block CRC32 digests (RDP):
+  Row Parity  (P) -> 6f317e54
+  Diag Parity (Q) -> 4f13b6e3
+加载安全磁盘列表...
+  安全磁盘: /dev/sdb
+  安全磁盘: /dev/sdc
+  安全磁盘: /dev/sdd
+  安全磁盘: /dev/sde
+  安全磁盘: /dev/sdf
+  安全磁盘: /dev/sdg
+  安全磁盘: /dev/sdh
+  安全磁盘: /dev/sdi
+  安全磁盘: /dev/sdj
+  安全磁盘: /dev/sdk
+  安全磁盘: /dev/sdl
+  安全磁盘: /dev/sdm
+  安全磁盘: /dev/sdn
+  安全磁盘: /dev/sdo
+  安全磁盘: /dev/sdp
+  安全磁盘: /dev/sdq
+  安全磁盘: /dev/sdr
+  安全磁盘: /dev/sds
+  安全磁盘: /dev/sdt
+  安全磁盘: /dev/sdu
+  安全磁盘: /dev/sdv
+  安全磁盘: /dev/sdw
+成功加载 22 个安全磁盘
+
+[RESULT] elapsed=0.328250s, bytes=8192000, throughput=23.80 MB/s, IOPS=6093

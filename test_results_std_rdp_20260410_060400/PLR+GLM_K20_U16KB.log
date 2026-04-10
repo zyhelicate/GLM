@@ -1,0 +1,103 @@
+[INFO] Initializing io_uring with 16384 entries (for QD=64, IOs/stripe=96)
+[FD-CHECK] disk: checking fd=6
+[FD-CHECK] disk: fd 6 is safe (>= 3)
+[FD-CHECK] disk: checking fd=7
+[FD-CHECK] disk: fd 7 is safe (>= 3)
+[FD-CHECK] disk: checking fd=8
+[FD-CHECK] disk: fd 8 is safe (>= 3)
+[FD-CHECK] disk: checking fd=9
+[FD-CHECK] disk: fd 9 is safe (>= 3)
+[FD-CHECK] disk: checking fd=10
+[FD-CHECK] disk: fd 10 is safe (>= 3)
+[FD-CHECK] disk: checking fd=11
+[FD-CHECK] disk: fd 11 is safe (>= 3)
+[FD-CHECK] disk: checking fd=12
+[FD-CHECK] disk: fd 12 is safe (>= 3)
+[FD-CHECK] disk: checking fd=13
+[FD-CHECK] disk: fd 13 is safe (>= 3)
+[FD-CHECK] disk: checking fd=14
+[FD-CHECK] disk: fd 14 is safe (>= 3)
+[FD-CHECK] disk: checking fd=15
+[FD-CHECK] disk: fd 15 is safe (>= 3)
+[FD-CHECK] disk: checking fd=16
+[FD-CHECK] disk: fd 16 is safe (>= 3)
+[FD-CHECK] disk: checking fd=17
+[FD-CHECK] disk: fd 17 is safe (>= 3)
+[FD-CHECK] disk: checking fd=18
+[FD-CHECK] disk: fd 18 is safe (>= 3)
+[FD-CHECK] disk: checking fd=19
+[FD-CHECK] disk: fd 19 is safe (>= 3)
+[FD-CHECK] disk: checking fd=20
+[FD-CHECK] disk: fd 20 is safe (>= 3)
+[FD-CHECK] disk: checking fd=21
+[FD-CHECK] disk: fd 21 is safe (>= 3)
+[FD-CHECK] disk: checking fd=22
+[FD-CHECK] disk: fd 22 is safe (>= 3)
+[FD-CHECK] disk: checking fd=23
+[FD-CHECK] disk: fd 23 is safe (>= 3)
+[FD-CHECK] disk: checking fd=24
+[FD-CHECK] disk: fd 24 is safe (>= 3)
+[FD-CHECK] disk: checking fd=25
+[FD-CHECK] disk: fd 25 is safe (>= 3)
+[FD-CHECK] disk: checking fd=26
+[FD-CHECK] disk: fd 26 is safe (>= 3)
+[FD-CHECK] disk: checking fd=27
+[FD-CHECK] disk: fd 27 is safe (>= 3)
+[INFO] Starting async pipeline (queue_depth=64, ring_queue_depth=16384)
+[PROGRESS] 0/1000 (0.0%) | elapsed=0.0s | est_remaining=infs | inflight=64
+[PROGRESS] 0/1000 (0.0%) | elapsed=0.0s | est_remaining=infs | inflight=64
+[PROGRESS] 1000/1000 (100.0%) | elapsed=0.7s | est_remaining=0.0s | inflight=0
+RDP demo (k=20, p=23, w=22, packetsize=4096)
+Allocation strategy: hybrid
+PLR: enabled (dir=/mnt/rdp_logs/plr)
+
+Data block CRC32 digests:
+  D00 -> d871a220
+  D01 -> 4acf6cda
+  D02 -> 8677463d
+  D03 -> baef23b7
+  D04 -> d253d78d
+  D05 -> 3fa2fe22
+  D06 -> da84aacc
+  D07 -> 54e23292
+  D08 -> 935ac948
+  D09 -> 2881af5e
+  D10 -> 2e88c188
+  D11 -> b8bca16e
+  D12 -> d6fff234
+  D13 -> fb78b0cd
+  D14 -> f0f531c1
+  D15 -> d537ac9d
+  D16 -> 1565e3c0
+  D17 -> c7282281
+  D18 -> 9a3c52fd
+  D19 -> fea9fe04
+Parity block CRC32 digests (RDP):
+  Row Parity  (P) -> c8e8f83e
+  Diag Parity (Q) -> 639998b3
+加载安全磁盘列表...
+  安全磁盘: /dev/sdb
+  安全磁盘: /dev/sdc
+  安全磁盘: /dev/sdd
+  安全磁盘: /dev/sde
+  安全磁盘: /dev/sdf
+  安全磁盘: /dev/sdg
+  安全磁盘: /dev/sdh
+  安全磁盘: /dev/sdi
+  安全磁盘: /dev/sdj
+  安全磁盘: /dev/sdk
+  安全磁盘: /dev/sdl
+  安全磁盘: /dev/sdm
+  安全磁盘: /dev/sdn
+  安全磁盘: /dev/sdo
+  安全磁盘: /dev/sdp
+  安全磁盘: /dev/sdq
+  安全磁盘: /dev/sdr
+  安全磁盘: /dev/sds
+  安全磁盘: /dev/sdt
+  安全磁盘: /dev/sdu
+  安全磁盘: /dev/sdv
+  安全磁盘: /dev/sdw
+成功加载 22 个安全磁盘
+
+[RESULT] elapsed=0.674786s, bytes=16384000, throughput=23.16 MB/s, IOPS=5928
